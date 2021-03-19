@@ -1,0 +1,138 @@
+/***** BASE STYLES *****/
+body {
+  font-family: "Montserrat";
+  color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 370px;
+}
+
+/***** HEADER *****/
+header {
+  border-bottom: 3px solid #77a466;
+}
+
+header h1 {
+  font-family: "Montserrat", bold;
+  font-size: 30px;
+  line-height: 23px;
+  padding: 30px 0 30px;
+  text-transform: uppercase;
+}
+
+#rogue {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 30px 0px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li {
+  color: #77a466;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  padding-right: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/***** MAIN *****/
+
+#header-img {
+  margin-bottom: 10px;
+  border-bottom: 3px solid #77a466;
+}
+
+#main {
+  margin-bottom: 20px;
+}
+
+#main h2 {
+  color: #77a466;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#main p {
+  font-size: 16px;
+  padding: 0px 30px 0px 0px;
+  word-spacing: 3.5px;
+}
+
+#info {
+  border-top: 1px solid #cecbcc;
+}
+
+#info h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+#specials {
+  color: #77a466;
+  font-family: "Montserrat";
+  font-size: 15px;
+  line-height: 35px;
+  list-style-type: none;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  padding-inline-start: 0px;
+}
+
+#section-two {
+  border-left: 1px solid #cecbcc;
+  border-right: 1px solid #cecbcc;
+  padding: 0px 20px 0px 20px;
+}
+
+#review {
+  font-size: 15px;
+  padding: 0px 20px 0px 0px;
+}
+
+#section-three {
+  padding: 0px 20px 0px 20px;
+}
+
+#contact {
+  font-size: 15px;
+  padding: 0px 190px 0px 0px;
+}
+
+/***** FOOTER *****/
+footer {
+  border-top: 3px solid #cecbcc;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 10px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+#fresh {
+  color: #9bbc8f;
+  font-family: "Galada";
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: lowercase;
+}
